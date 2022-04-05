@@ -249,16 +249,9 @@ top: 58px; left: 55px;
         
       <h3>Links</h3>
       <ul class="sidemenu">
-        <li><a href="http://www.freephotos.se/">FreePhotos.se</a></li>
-      </ul>
-     
-    </div>    
-    
-  </div>
-    
-
-<!-- wrap ends here -->
+        <li><a href="http://www.freephotos.se/">FreePhotos.se</a></li></ul>
+</div>      
 </div>
-
+</div>
 </body>
 </html>
