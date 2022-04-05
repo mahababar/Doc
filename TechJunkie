@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>
+Tech Junkie Website
+</title>
+<style>
+body {
+background: f3eee0;
+font: 12px/170%;
+color: black
+text-align: center;  
+}
+h1, h2, h3 {
+  font-weight: Bold;   
+  padding: 10px;    
+  color: #444;  
+}
+h1 {    
+}
+h2 {
+}
+h3 { 
+  padding: 16px 10px 4px 10px;
+}
+code {
+margin: 5px 0;
+padding: 15px;
+text-align: left;
+display: block;
+overflow: auto;  
+border: 1px solid #deedae; 
+background: #F0FFD2; 
+}
+table {
+  border-collapse: collapse;
+  margin: 15px 10px;    
+}
+tr {
+  height: 34px;
+  background: #fff;
+}
+td {
+  padding-left: 11px;
+  padding-right: 11px;
+  border: 1px solid #E7F0CC;  
+}  
+#wrap {
+  position: relative;
+  width: 920px;
+  background: lightblue;
+  margin: 35px auto;
+  text-align: left;  
+}
+#content-wrap {
+  position: relative;
+  clear: both;
+  float: left;  
+  width: 920px;  
+  padding: 25px 0;   
+  background: #c7fcc7;
+}
+#header {
+  position: relative;
+  width: 920px;
+  height: 205px;
+  background: #5ba5d9;
+  color: #fff;  
+  padding: 0;  
+  margin: 0;
+}
+#header h1#logo-text a {
+  position: absolute;
+  font: bold 56px  Arial;
+  text-decoration: none;
+  color: white;
+top: 58px; left: 55px;  
+}
+#header p#slogan {
+  position: absolute;
+  font: bold 15px Sans-serif;
+  color: lightgreen;
+  top: 122px; left: 135px;    
+}
+
+#header form#quick-search {
+  position: absolute;
+  top: 75px; right: 55px;
+  padding: 0; margin: 0;
+  border: none;
+  width: 223px; height: 33px;
+  background: #82c7f4;  
+  z-index: 999999;
+}
+#nav {
+  clear: both;  
+  padding: 0;  margin: 0;
+  width: 920px;
+  height: 50px;
+  background: #0e609e;    
+}
+#nav ul {
+  float: left;
+  list-style: none;  
+  margin: 0;
+  padding: 0 0 0 40px;      
+  height: 50px;  
+}
+#nav ul li {
+  display: inline;
+  margin: 0; padding: 0;
+}
+#nav ul li a {
+  display: block;
+  float: left;
+  width: auto;
+  margin: 0;
+  padding: 0 14px;
+  color: #fff;
+  font: bold 16px/50px Arial;
+  text-decoration: none;  
+  letter-spacing: -0.5px;
+}
+#nav ul li a:hover, 
+#nav ul li a:active {
+  color: #edf8c7;  
+}
+#main {
+  float: left;
+  width: 525px;
+  padding: 0; margin: 0 0 0 45px;
+  display: inline;  
+}
+#sidebar {
+  float: right;
+  width: 270px;
+  padding: 0; 
+  margin: 0 45px 0 0;
+  display: inline;  
+}
+#sidebar h3 {
+  color: #115280; 
+  font: Arial;
+  text-transform: none;
+  padding: 10px 0 2px 0; 
+  margin: 10px 0 0 10px; 
+}
+
+
+#sidebar .sidemenu {
+  margin: 5px 10px 8px 7px; padding: 0;
+  text-decoration: none;    
+  border-top: 2px solid #D0E89F;
+}
+#sidebar .sidemenu li {
+  list-style: none;
+  margin: 0;
+  padding: 7px 10px;       
+  border-bottom: 1px solid #DAEBA3;  
+}
+* html body #sidebar .sidemenu li {
+  height: 1%;
+}
+#sidebar .sidemenu li a {
+  text-decoration: none;  
+  color: #684F3E;
+}
+#sidebar .sidemenu li a span {
+  color: #A98D76;   
+  font-style: italic;  
+}
+
+</style>
+</head>
+
+<body>
+<!-- wrap starts here -->
+<div id="wrap">
+
+  <!--header -->
+  <div id="header">      
+        
+    <h1 id="logo-text"><a href="index.html" title="">techjunkie</a></h1>    
+    <p id="slogan">put your site slogan here...</p>    
+      
+    <form id="quick-search" action="index.html" method="get" >
+      <p>
+      <label for="qsearch">Search:</label>
+      <input class="tbox" id="qsearch" type="text" name="qsearch" value="Search..." title="Start typing and hit ENTER" />
+      <input class="btn" alt="Search" type="image" name="searchsubmit" title="Search" src="images/search.gif" />
+      </p>
+    </form>  
+      
+  <!--header ends-->          
+  </div>
+    
+  <!-- navigation starts-->  
+  <div  id="nav">
+    <ul>
+      <li id="current"><a href="index.html">Home</a></li>
+      <li><a href="style.html">Style Demo</a></li>
+      <li><a href="index.html">Downloads</a></li>
+      <li><a href="index.html">Services</a></li>
+      <li><a href="index.html">Support</a></li>
+      <li><a href="index.html">About</a></li>    
+    </ul>
+  <!-- navigation ends-->  
+  </div>          
+      
+  <!-- content-wrap starts -->
+  <div id="content-wrap">
+  
+    <div id="main">
+        
+      <a name="TemplateInfo"></a>
+      <h2><a href="index.html" title="">Template Info</a></h2>
+          
+      <p class="post-info">Posted by <a href="index.html">erwin</a> | Filed under <a href="index.html">templates</a>, <a href="index.html">internet</a>  </p>
+        
+            <p>TechJunkieis a free, W3C-compliant, CSS-based website template
+            bystyleshout.com</a>. This work is
+            distributed under the Creative Commons Attribution 2.5  License</a>, which means that you are free to
+            use and modify it for any purpose. All I ask is that you give me credit by including a <strong>link back</strong> to
+            </p>
+
+            <p>
+            You can find more of my free template designs at my website</a>.
+            For premium commercial designs, you can check out
+            </p>
+        
+      <p>    
+      <a href="index.html" class="readmore">Read more</a> |
+      <a href="index.html" class="comments">Comments (7)</a> |        
+      <span class="date">May 20, 2007</span>  
+      </p>
+  
+    </div>
+        
+    <div id="sidebar">
+      
+      <h3>Sidebar Menu</h3>
+      <ul class="sidemenu">        
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#TemplateInfo">TemplateInfo</a></li>
+        <li><a href="style.html">Style Demo</a></li>
+        <li><a href="http://www.styleshout.com/">More Free Templates</a></li>
+        <li>
+        <a href="http://www.buywebtemplates.net" title="Web Templates">Web Templates</a></li>
+      </ul>  
+        
+      <h3>Links</h3>
+      <ul class="sidemenu">
+        <li><a href="http://www.freephotos.se/">FreePhotos.se</a></li>
+      </ul>
+     
+    </div>    
+    
+  </div>
+    
+
+<!-- wrap ends here -->
+</div>
+
+</body>
+</html>
